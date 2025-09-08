@@ -24,6 +24,7 @@
 		0426C2F62E6F2A0700BA6881 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C2F52E6F2A0700BA6881 /* Details.swift */; };
 		0426C2F82E6F2A8E00BA6881 /* AddressFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C2F72E6F2A8E00BA6881 /* AddressFetcher.swift */; };
 		0426C2FA2E6F2AB400BA6881 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C2F92E6F2AB400BA6881 /* LocationManager.swift */; };
+		0426C3002E6F6E8900BA6881 /* APIToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C2FF2E6F6E8900BA6881 /* APIToken.swift */; };
 		045A75612E6F182C00D101A9 /* PetFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75602E6F182C00D101A9 /* PetFinderApp.swift */; };
 		045A75632E6F182C00D101A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75622E6F182C00D101A9 /* ContentView.swift */; };
 		045A75652E6F182D00D101A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A75642E6F182D00D101A9 /* Assets.xcassets */; };
@@ -71,6 +72,7 @@
 		0426C2F52E6F2A0700BA6881 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		0426C2F72E6F2A8E00BA6881 /* AddressFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressFetcher.swift; sourceTree = "<group>"; };
 		0426C2F92E6F2AB400BA6881 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0426C2FF2E6F6E8900BA6881 /* APIToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIToken.swift; sourceTree = "<group>"; };
 		045A755D2E6F182C00D101A9 /* PetFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A75602E6F182C00D101A9 /* PetFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderApp.swift; sourceTree = "<group>"; };
 		045A75622E6F182C00D101A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,35 @@
 			path = details;
 			sourceTree = "<group>";
 		};
+		0426C2FB2E6F2B5F00BA6881 /* AnimalsNearYou */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AnimalsNearYou;
+			sourceTree = "<group>";
+		};
+		0426C2FC2E6F2B6900BA6881 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0426C2FD2E6F2B7F00BA6881 /* AnimalDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AnimalDetails;
+			sourceTree = "<group>";
+		};
+		0426C2FE2E6F6E5000BA6881 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0426C2FF2E6F6E8900BA6881 /* APIToken.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		045A75542E6F182B00D101A9 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +219,9 @@
 		045A755F2E6F182C00D101A9 /* PetFinder */ = {
 			isa = PBXGroup;
 			children = (
+				0426C2FD2E6F2B7F00BA6881 /* AnimalDetails */,
+				0426C2FC2E6F2B6900BA6881 /* Search */,
+				0426C2FB2E6F2B5F00BA6881 /* AnimalsNearYou */,
 				045A758F2E6F193300D101A9 /* Core */,
 				045A75602E6F182C00D101A9 /* PetFinderApp.swift */,
 				045A75622E6F182C00D101A9 /* ContentView.swift */,
@@ -261,6 +295,7 @@
 		045A75932E6F19B000D101A9 /* api */ = {
 			isa = PBXGroup;
 			children = (
+				0426C2FE2E6F6E5000BA6881 /* model */,
 				045A75942E6F19E000D101A9 /* APIConstants.swift */,
 			);
 			path = api;
@@ -413,6 +448,7 @@
 				0426C2F32E6F29D600BA6881 /* VideoLink.swift in Sources */,
 				0426C2F82E6F2A8E00BA6881 /* AddressFetcher.swift in Sources */,
 				0426C2F62E6F2A0700BA6881 /* Details.swift in Sources */,
+				0426C3002E6F6E8900BA6881 /* APIToken.swift in Sources */,
 				0426C2DD2E6F270700BA6881 /* AdoptionStatus.swift in Sources */,
 				0426C2ED2E6F296400BA6881 /* Pagination.swift in Sources */,
 				0426C2F12E6F29B000BA6881 /* File.swift in Sources */,
