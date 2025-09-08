@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  PetFinder
 //
-//  Created by MAC on 8/9/2025.
+//  Created by Djihane on 8/9/2025.
 //
 
 import SwiftUI
