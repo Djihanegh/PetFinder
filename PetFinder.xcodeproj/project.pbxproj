@@ -48,6 +48,7 @@
 		0426C33B2E703C8B00BA6881 /* AnimalsRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C33A2E703C8B00BA6881 /* AnimalsRequestMock.swift */; };
 		0426C33D2E703D1A00BA6881 /* RequestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C33C2E703D1A00BA6881 /* RequestManagerTests.swift */; };
 		0426C33F2E703DCB00BA6881 /* RequestManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C33E2E703DCB00BA6881 /* RequestManagerMock.swift */; };
+		0426C3412E70508C00BA6881 /* AccessTokenManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3402E70508C00BA6881 /* AccessTokenManagerTests.swift */; };
 		045A75612E6F182C00D101A9 /* PetFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75602E6F182C00D101A9 /* PetFinderApp.swift */; };
 		045A75632E6F182C00D101A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75622E6F182C00D101A9 /* ContentView.swift */; };
 		045A75652E6F182D00D101A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A75642E6F182D00D101A9 /* Assets.xcassets */; };
@@ -119,6 +120,7 @@
 		0426C33A2E703C8B00BA6881 /* AnimalsRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRequestMock.swift; sourceTree = "<group>"; };
 		0426C33C2E703D1A00BA6881 /* RequestManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerTests.swift; sourceTree = "<group>"; };
 		0426C33E2E703DCB00BA6881 /* RequestManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerMock.swift; sourceTree = "<group>"; };
+		0426C3402E70508C00BA6881 /* AccessTokenManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenManagerTests.swift; sourceTree = "<group>"; };
 		045A755D2E6F182C00D101A9 /* PetFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A75602E6F182C00D101A9 /* PetFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderApp.swift; sourceTree = "<group>"; };
 		045A75622E6F182C00D101A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 				0426C3352E7038F200BA6881 /* helper */,
 				0426C3342E7038EB00BA6881 /* mock */,
 				0426C33C2E703D1A00BA6881 /* RequestManagerTests.swift */,
+				0426C3402E70508C00BA6881 /* AccessTokenManagerTests.swift */,
 			);
 			path = api;
 			sourceTree = "<group>";
@@ -677,6 +680,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0426C3412E70508C00BA6881 /* AccessTokenManagerTests.swift in Sources */,
 				0426C3392E703B7000BA6881 /* AccessTokenTestHelper.swift in Sources */,
 				0426C33D2E703D1A00BA6881 /* RequestManagerTests.swift in Sources */,
 				0426C3372E703A0F00BA6881 /* APIManagerMock.swift in Sources */,
