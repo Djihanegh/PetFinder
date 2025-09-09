@@ -130,64 +130,6 @@
             endingLineNumber = "33"
             landmarkName = "requestAccessToken()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "272955E4-6744-480D-B307-8329C597521A - 1c0417168d1a1c12"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for PetFinder.RequestManager.requestAccessToken() async throws -&gt; Swift.String"
-                  moduleName = "PetFinder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mac/Documents/iOS%20native/PetFinder/PetFinder/Core/data/api/network/RequestManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35">
-               </Location>
-               <Location
-                  uuid = "272955E4-6744-480D-B307-8329C597521A - da2bb15b1854233b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for PetFinder.RequestManager.requestAccessToken() async throws -&gt; Swift.String"
-                  moduleName = "PetFinder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mac/Documents/iOS%20native/PetFinder/PetFinder/Core/data/api/network/RequestManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35">
-               </Location>
-               <Location
-                  uuid = "272955E4-6744-480D-B307-8329C597521A - 2553b25740cb5810"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for PetFinder.RequestManager.requestAccessToken() async throws -&gt; Swift.String"
-                  moduleName = "PetFinder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mac/Documents/iOS%20native/PetFinder/PetFinder/Core/data/api/network/RequestManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35">
-               </Location>
-               <Location
-                  uuid = "272955E4-6744-480D-B307-8329C597521A - 39c6ec347ddc3a11"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for PetFinder.RequestManager.requestAccessToken() async throws -&gt; Swift.String"
-                  moduleName = "PetFinder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mac/Documents/iOS%20native/PetFinder/PetFinder/Core/data/api/network/RequestManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
