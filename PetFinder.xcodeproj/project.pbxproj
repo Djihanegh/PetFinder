@@ -63,6 +63,10 @@
 		0426C3612E71AE8200BA6881 /* VideoLink+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3602E71AE8200BA6881 /* VideoLink+CoreData.swift */; };
 		0426C3632E71B5EA00BA6881 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3622E71B5EA00BA6881 /* CoreDataHelper.swift */; };
 		0426C3662E71BA1B00BA6881 /* AnimalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3652E71BA1B00BA6881 /* AnimalDetailsView.swift */; };
+		0426C3692E71BF6F00BA6881 /* AnimalsNearYouViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3682E71BF6F00BA6881 /* AnimalsNearYouViewModel.swift */; };
+		0426C36C2E71E5AC00BA6881 /* AnimalsFetcherMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C36B2E71E5AC00BA6881 /* AnimalsFetcherMock.swift */; };
+		0426C36E2E71E5D700BA6881 /* AnimalStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C36D2E71E5D700BA6881 /* AnimalStoreService.swift */; };
+		0426C3702E71E5F300BA6881 /* FetchAnimalsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C36F2E71E5F300BA6881 /* FetchAnimalsService.swift */; };
 		045A75612E6F182C00D101A9 /* PetFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75602E6F182C00D101A9 /* PetFinderApp.swift */; };
 		045A75632E6F182C00D101A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75622E6F182C00D101A9 /* ContentView.swift */; };
 		045A75652E6F182D00D101A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A75642E6F182D00D101A9 /* Assets.xcassets */; };
@@ -149,6 +153,10 @@
 		0426C3602E71AE8200BA6881 /* VideoLink+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoLink+CoreData.swift"; sourceTree = "<group>"; };
 		0426C3622E71B5EA00BA6881 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		0426C3652E71BA1B00BA6881 /* AnimalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsView.swift; sourceTree = "<group>"; };
+		0426C3682E71BF6F00BA6881 /* AnimalsNearYouViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsNearYouViewModel.swift; sourceTree = "<group>"; };
+		0426C36B2E71E5AC00BA6881 /* AnimalsFetcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsFetcherMock.swift; sourceTree = "<group>"; };
+		0426C36D2E71E5D700BA6881 /* AnimalStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStoreService.swift; sourceTree = "<group>"; };
+		0426C36F2E71E5F300BA6881 /* FetchAnimalsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAnimalsService.swift; sourceTree = "<group>"; };
 		045A755D2E6F182C00D101A9 /* PetFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A75602E6F182C00D101A9 /* PetFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderApp.swift; sourceTree = "<group>"; };
 		045A75622E6F182C00D101A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -248,6 +256,8 @@
 		0426C2FB2E6F2B5F00BA6881 /* AnimalsNearYou */ = {
 			isa = PBXGroup;
 			children = (
+				0426C36A2E71E58000BA6881 /* services */,
+				0426C3672E71BE1D00BA6881 /* viewModels */,
 				0426C3212E702C3B00BA6881 /* views */,
 			);
 			path = AnimalsNearYou;
@@ -435,6 +445,24 @@
 				0426C3652E71BA1B00BA6881 /* AnimalDetailsView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		0426C3672E71BE1D00BA6881 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0426C3682E71BF6F00BA6881 /* AnimalsNearYouViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		0426C36A2E71E58000BA6881 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				0426C36B2E71E5AC00BA6881 /* AnimalsFetcherMock.swift */,
+				0426C36D2E71E5D700BA6881 /* AnimalStoreService.swift */,
+				0426C36F2E71E5F300BA6881 /* FetchAnimalsService.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 		045A75542E6F182B00D101A9 = {
@@ -695,6 +723,7 @@
 				0426C3532E71AD3000BA6881 /* AnimalAttributes+CoreData.swift in Sources */,
 				0426C3182E6F748300BA6881 /* AccessTokenManager.swift in Sources */,
 				0426C2E72E6F290F00BA6881 /* Breed.swift in Sources */,
+				0426C36E2E71E5D700BA6881 /* AnimalStoreService.swift in Sources */,
 				0426C3552E71AD8C00BA6881 /* AnimalEnvironment+CoreData.swift in Sources */,
 				045A756A2E6F182D00D101A9 /* Persistence.swift in Sources */,
 				0426C30A2E6F714C00BA6881 /* APIManager.swift in Sources */,
@@ -704,6 +733,7 @@
 				0426C2F32E6F29D600BA6881 /* VideoLink.swift in Sources */,
 				0426C2F82E6F2A8E00BA6881 /* AddressFetcher.swift in Sources */,
 				0426C34A2E709ECF00BA6881 /* CoreDataPersistable.swift in Sources */,
+				0426C36C2E71E5AC00BA6881 /* AnimalsFetcherMock.swift in Sources */,
 				0426C2F62E6F2A0700BA6881 /* Details.swift in Sources */,
 				0426C3002E6F6E8900BA6881 /* APIToken.swift in Sources */,
 				0426C3592E71ADE700BA6881 /* Breed+CoreData.swift in Sources */,
@@ -741,10 +771,12 @@
 				0426C35F2E71AE5B00BA6881 /* User+CoreData.swift in Sources */,
 				0426C34D2E71ABAB00BA6881 /* Address+CoreData.swift in Sources */,
 				0426C31F2E6F76FF00BA6881 /* AnimalSearchType.swift in Sources */,
+				0426C3702E71E5F300BA6881 /* FetchAnimalsService.swift in Sources */,
 				0426C30D2E6F719800BA6881 /* DataParser.swift in Sources */,
 				0426C3662E71BA1B00BA6881 /* AnimalDetailsView.swift in Sources */,
 				0426C3232E702C5D00BA6881 /* AnimalsNearYouView.swift in Sources */,
 				045A756D2E6F182D00D101A9 /* PetFinder.xcdatamodeld in Sources */,
+				0426C3692E71BF6F00BA6881 /* AnimalsNearYouViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
