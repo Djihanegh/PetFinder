@@ -50,6 +50,9 @@
 		0426C33F2E703DCB00BA6881 /* RequestManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C33E2E703DCB00BA6881 /* RequestManagerMock.swift */; };
 		0426C3412E70508C00BA6881 /* AccessTokenManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3402E70508C00BA6881 /* AccessTokenManagerTests.swift */; };
 		0426C34A2E709ECF00BA6881 /* CoreDataPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3492E709ECF00BA6881 /* CoreDataPersistable.swift */; };
+		0426C34D2E71ABAB00BA6881 /* Address+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C34C2E71ABAB00BA6881 /* Address+CoreData.swift */; };
+		0426C34F2E71AC4600BA6881 /* Contact+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C34E2E71AC4600BA6881 /* Contact+CoreData.swift */; };
+		0426C3512E71ACE000BA6881 /* Animal+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3502E71ACE000BA6881 /* Animal+CoreData.swift */; };
 		045A75612E6F182C00D101A9 /* PetFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75602E6F182C00D101A9 /* PetFinderApp.swift */; };
 		045A75632E6F182C00D101A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75622E6F182C00D101A9 /* ContentView.swift */; };
 		045A75652E6F182D00D101A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A75642E6F182D00D101A9 /* Assets.xcassets */; };
@@ -123,6 +126,9 @@
 		0426C33E2E703DCB00BA6881 /* RequestManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerMock.swift; sourceTree = "<group>"; };
 		0426C3402E70508C00BA6881 /* AccessTokenManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenManagerTests.swift; sourceTree = "<group>"; };
 		0426C3492E709ECF00BA6881 /* CoreDataPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPersistable.swift; sourceTree = "<group>"; };
+		0426C34C2E71ABAB00BA6881 /* Address+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreData.swift"; sourceTree = "<group>"; };
+		0426C34E2E71AC4600BA6881 /* Contact+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreData.swift"; sourceTree = "<group>"; };
+		0426C3502E71ACE000BA6881 /* Animal+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animal+CoreData.swift"; sourceTree = "<group>"; };
 		045A755D2E6F182C00D101A9 /* PetFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A75602E6F182C00D101A9 /* PetFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderApp.swift; sourceTree = "<group>"; };
 		045A75622E6F182C00D101A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -387,6 +393,9 @@
 			isa = PBXGroup;
 			children = (
 				0426C3492E709ECF00BA6881 /* CoreDataPersistable.swift */,
+				0426C34C2E71ABAB00BA6881 /* Address+CoreData.swift */,
+				0426C34E2E71AC4600BA6881 /* Contact+CoreData.swift */,
+				0426C3502E71ACE000BA6881 /* Animal+CoreData.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -669,6 +678,7 @@
 				0426C2EB2E6F294700BA6881 /* Gender.swift in Sources */,
 				0426C31A2E6F75DD00BA6881 /* AppUserDefaultsKeys.swift in Sources */,
 				0426C3152E6F727A00BA6881 /* AnimalsRequest.swift in Sources */,
+				0426C34F2E71AC4600BA6881 /* Contact+CoreData.swift in Sources */,
 				0426C3082E6F711C00BA6881 /* RequestManager.swift in Sources */,
 				0426C32B2E702E9800BA6881 /* AnimalsContainer.swift in Sources */,
 				0426C2FA2E6F2AB400BA6881 /* LocationManager.swift in Sources */,
@@ -679,8 +689,10 @@
 				0426C2DB2E6F26AE00BA6881 /* Organization.swift in Sources */,
 				045A75612E6F182C00D101A9 /* PetFinderApp.swift in Sources */,
 				0426C3252E702C9900BA6881 /* AnimalRow.swift in Sources */,
+				0426C3512E71ACE000BA6881 /* Animal+CoreData.swift in Sources */,
 				0426C2E92E6F292A00BA6881 /* Coat.swift in Sources */,
 				0426C30F2E6F71DF00BA6881 /* RequestType.swift in Sources */,
+				0426C34D2E71ABAB00BA6881 /* Address+CoreData.swift in Sources */,
 				0426C31F2E6F76FF00BA6881 /* AnimalSearchType.swift in Sources */,
 				0426C30D2E6F719800BA6881 /* DataParser.swift in Sources */,
 				0426C3232E702C5D00BA6881 /* AnimalsNearYouView.swift in Sources */,
