@@ -10,7 +10,7 @@ import CoreData
 
 struct ContentView: View {
   let managedObjectContext = PersistenceController.shared.container.viewContext
-
+    
   var body: some View {
     TabView {
       AnimalsNearYouView()
