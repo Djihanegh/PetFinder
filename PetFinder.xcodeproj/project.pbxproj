@@ -49,6 +49,7 @@
 		0426C33D2E703D1A00BA6881 /* RequestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C33C2E703D1A00BA6881 /* RequestManagerTests.swift */; };
 		0426C33F2E703DCB00BA6881 /* RequestManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C33E2E703DCB00BA6881 /* RequestManagerMock.swift */; };
 		0426C3412E70508C00BA6881 /* AccessTokenManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3402E70508C00BA6881 /* AccessTokenManagerTests.swift */; };
+		0426C34A2E709ECF00BA6881 /* CoreDataPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C3492E709ECF00BA6881 /* CoreDataPersistable.swift */; };
 		045A75612E6F182C00D101A9 /* PetFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75602E6F182C00D101A9 /* PetFinderApp.swift */; };
 		045A75632E6F182C00D101A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A75622E6F182C00D101A9 /* ContentView.swift */; };
 		045A75652E6F182D00D101A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A75642E6F182D00D101A9 /* Assets.xcassets */; };
@@ -121,6 +122,7 @@
 		0426C33C2E703D1A00BA6881 /* RequestManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerTests.swift; sourceTree = "<group>"; };
 		0426C33E2E703DCB00BA6881 /* RequestManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManagerMock.swift; sourceTree = "<group>"; };
 		0426C3402E70508C00BA6881 /* AccessTokenManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenManagerTests.swift; sourceTree = "<group>"; };
+		0426C3492E709ECF00BA6881 /* CoreDataPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPersistable.swift; sourceTree = "<group>"; };
 		045A755D2E6F182C00D101A9 /* PetFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A75602E6F182C00D101A9 /* PetFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderApp.swift; sourceTree = "<group>"; };
 		045A75622E6F182C00D101A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -381,6 +383,14 @@
 			path = helper;
 			sourceTree = "<group>";
 		};
+		0426C3482E709EA900BA6881 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0426C3492E709ECF00BA6881 /* CoreDataPersistable.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		045A75542E6F182B00D101A9 = {
 			isa = PBXGroup;
 			children = (
@@ -496,6 +506,7 @@
 		045A75962E6F19FC00D101A9 /* coreData */ = {
 			isa = PBXGroup;
 			children = (
+				0426C3482E709EA900BA6881 /* extensions */,
 				045A756B2E6F182D00D101A9 /* PetFinder.xcdatamodeld */,
 				045A75692E6F182D00D101A9 /* Persistence.swift */,
 			);
@@ -643,6 +654,7 @@
 				0426C2E52E6F28E500BA6881 /* APIColors.swift in Sources */,
 				0426C2F32E6F29D600BA6881 /* VideoLink.swift in Sources */,
 				0426C2F82E6F2A8E00BA6881 /* AddressFetcher.swift in Sources */,
+				0426C34A2E709ECF00BA6881 /* CoreDataPersistable.swift in Sources */,
 				0426C2F62E6F2A0700BA6881 /* Details.swift in Sources */,
 				0426C3002E6F6E8900BA6881 /* APIToken.swift in Sources */,
 				0426C2DD2E6F270700BA6881 /* AdoptionStatus.swift in Sources */,
